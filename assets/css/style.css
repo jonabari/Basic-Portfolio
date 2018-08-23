@@ -2,13 +2,17 @@
 
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 36px;
     color: #ffffff;
+    font-weight: bold;
 }
 
 h2 { 
     margin: 0;
     padding-bottom: 20px;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
+    font-weight: bold;
     color: #4aaaa5;
     border-bottom: 2px solid #dddddd;
 }
@@ -24,7 +28,6 @@ a {
     text-decoration: none;
 }
 
-
 /* header is fixed to the top of all pages */
 header {
     margin: 0 auto;
@@ -35,43 +38,45 @@ header {
 
 /* nav-bar includes all clickables in the header*/
 .nav-bar {
+    position: relative;
     overflow: auto;
     margin: 0 auto;
     width: 960px;
 }
 
+#nav-home {
+    position: relative;
+    background: #4aaaa5;
+    float: left;
+    padding: 15px 27px;
+}
+
 .nav-divider {
     position: relative;
-    top:34px;
+    top: 22px;
     height: 22px;
     width: 1px;
     background-color: #cccccc;
     float: right;
 }
 
-#nav-home {
-     background: #4aaaa5;
-     float: left;
-     padding: 0px 30px;
-}
-
 #nav-contact {
     position: relative;
-    top: 30px;
+    top: 17px;
     padding-left: 15px;
     float: right;
 }
 
 #nav-portfolio {
     position: relative;
-    top: 30px;
+    top: 17px;
     float: right;
     padding: 0 15px;
 }
 
 #nav-about {
     position: relative;
-    top: 30px;
+    top: 17px;
     float: right;
     padding-right: 15px;
 }
